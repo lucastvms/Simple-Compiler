@@ -35,8 +35,3 @@ def analise_lexica(programa, tokens_da_linguagem):
         else:
             posicao = match.end(0)
     return tokens_identificados
-
-#code = 'A = B + C; C = B; A = B - C;'
-"""code = 'A = 0129;'
-tokens = analise_lexica(code, tokens_da_linguagem)
-print(tokens)"""
