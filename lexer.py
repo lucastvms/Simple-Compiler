@@ -1,5 +1,4 @@
-import sys
-import re
+import sys, re
 
 class Lexer:
     def __init__(this):
